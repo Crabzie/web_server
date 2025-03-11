@@ -26,23 +26,24 @@ Simple web server using classical thread pooling from my personally made thread 
 ## How to Use  
 
 1. Clone the repository into your home directory:  
-   ```bash
+```bash
    cd $HOME
    git clone https://github.com/cunbex/web_server.git
+````
 
 2. Update the `.env` file:
-  ```plaintext
+```plaintext
   Example:
 
   www_path = "/home/username/web_server/www/"
   thread_pool_size = "4"
 
-  ```
+```
 3. Launch the binary:
-  ```bash
+```bash
   ./web_server
 
-  ```
+```
 4. Open the website:
   - Visit localhost:7878 → Default hello.html page.
   - Visit localhost:7878/sleep → A 5-second sleep page to demonstrate multi-threaded request handling.
