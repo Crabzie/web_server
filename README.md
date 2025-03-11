@@ -26,13 +26,11 @@ Simple web server using classical thread pooling from my personally made thread 
 ## How to Use  
 
 1. Clone the repository into your home directory:  
-
    ```bash
    cd $HOME
    git clone https://github.com/cunbex/web_server.git
 
 2. Update the `.env` file:
-
   ```plaintext
   Example:
 
@@ -41,12 +39,10 @@ Simple web server using classical thread pooling from my personally made thread 
 
   ```
 3. Launch the binary:
-
   ```bash
   ./web_server
 
   ```
 4. Open the website:
-
   - Visit localhost:7878 → Default hello.html page.
   - Visit localhost:7878/sleep → A 5-second sleep page to demonstrate multi-threaded request handling.
