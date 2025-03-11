@@ -1,5 +1,5 @@
 # Web_server
-Simple web server using classical thread pooling from my personally made thread pooling library.
+Simple web server with personal thread pooling library.
 
 ## Structure
 
