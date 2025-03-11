@@ -1,6 +1,11 @@
 # Web_server
 Simple web server using classical thread pooling from my personally made thread pooling library.
 
+## Structure
+
+- src/lib.rs: Thread-pooling lbirary.
+- src/main.rs: Web serving binary.
+
 ### Functionalities
 
 - Serve two http pages localted at `web_server/www/` folders for the moment.
