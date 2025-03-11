@@ -6,51 +6,47 @@ Simple web server using classical thread pooling from my personally made thread 
 - src/lib.rs: Thread-pooling lbirary.
 - src/main.rs: Web serving binary.
 
-### Functionalities
+### Features
 
-- Serve two http pages localted at `web_server/www/` folders for the moment.
-- Multi-threaded servicing.
-- Thread-pooling library.
+- Serve two HTTP pages located in the `web_server/www/` folder for now.  
+- Multi-threaded request handling.  
+- Thread-pooling library.  
 
-### To add functionalities
+### Planned Features  
 
-- Dynamic page serving.
-- More integration with user environment.
-- Upgrade CLI.
-- Load balancing across different servers.
-- Merging to async.
-- Caching.
+- Dynamic page serving.  
+- Better integration with the user environment.  
+- CLI improvements.  
+- Load balancing across multiple servers.  
+- Migration to an async model.  
+- Caching.  
 
-ps: Project is still under development, and lot of functionalities has to be added.
+**Note:** This project is still under development. It started as an educational project and will be expanded with many more features.  
 
-## How to use
+## How to Use  
 
-1. Clone the repo in your home directory:
+1. Clone the repository into your home directory:  
 
-  ```bash
-  cd $home
-  git clone https://github.com/cunbex/web_server.git
-  ```
+   ```bash
+   cd $HOME
+   git clone https://github.com/cunbex/web_server.git
 
-2. Update the .env file:
+2. Update the `.env` file:
 
   ```plaintext
-
-  example:
+  Example:
 
   www_path = "/home/username/web_server/www/"
   thread_pool_size = "4"
 
   ```
-
-3. Launch the binary
+3. Launch the binary:
 
   ```bash
   ./web_server
+
   ```
+4. Open the website:
 
-4. Visit website:
-
-  localhost:7878 -> default hello.html page.
-  
-  localhost:7878/sleep -> 5 sec sleep page to demonstrate multi-threaded serving.
+  - Visit localhost:7878 → Default hello.html page.
+  - Visit localhost:7878/sleep → A 5-second sleep page to demonstrate multi-threaded request handling.
