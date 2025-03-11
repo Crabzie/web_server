@@ -1,0 +1,11 @@
+[package]
+name = "web_handler"
+version = "0.1.0"
+edition = "2024"
+repository = "https://github.com/crabzie/webhandler"
+authors = ["Cunbex <hamzalagab.tech@gmail.com"]
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+dotenv = "0.15.0"
